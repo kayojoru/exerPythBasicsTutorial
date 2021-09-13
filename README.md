@@ -2,8 +2,8 @@
 
 ## Summary of steps to complete
 
-- [ ] Fork this repository so you have your own copy to work on.
-- [ ] Clone the repository on your local machine. 
+- [x] Fork this repository so you have your own copy to work on.
+- [x] Clone the repository on your local machine. 
 - [ ] Run Conda commands to create a new Conda environment for this assignment.
 - [ ] Open the repository Jupyter Notebook in VSCode or Jupyter Notebooks.
 - [ ] Add the code shown in this video to your Jupyter Notebook.
@@ -60,8 +60,11 @@
   * An easy short cut is to hit Shift-Enter after you've entered the code in a cell. This runs the cell and creates a new one below for the next code block.
   * There are a few code blocks which are for illustration purposes and will not execute. Go ahead and paste the code into a cell in your Jupyter Notebook to indicate you reviewed that section. (This is especially true in the Modules and Packages tutorial.)
   * The Modules and Packages tutorial provides an example or urlopen() which is from Python 2. How would that function be called in Python 3?
-  * In the Moduls and Packages tutorial, how should the example help(urllib.urlopen) be written?
+  > **The legacy urllib.urlopen function from Python 2.6 and earlier has been discontinued; urllib.request.urlopen() corresponds to the old urllib2.urlopen.**
+  * In the Modules and Packages tutorial, how should the example help(urllib.urlopen) be written?
+  > **help(urllib.request.urlopen)**
   * The Writing Packages section of the Modules and Packages tutorial may be a bit out of date. What has changed?
+  > **"__init__.py" is not longer required since version 3.3 of Python**
   * When you're done make sure you save your file.
   * Quit when you get to Numpy Arrays. That is in the next tutorial.
 
